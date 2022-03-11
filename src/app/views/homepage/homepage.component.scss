@@ -1,0 +1,21 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+.homepage {
+  height: inherit;
+
+  .homepage__button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .homepage__title + .homepage__button {
+    margin-top: 2rem;
+  }
+
+  .homepage__button + .homepage__books {
+    margin-top: 2rem;
+  }
+}
