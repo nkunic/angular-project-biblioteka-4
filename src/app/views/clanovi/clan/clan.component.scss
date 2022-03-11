@@ -5,7 +5,7 @@
 .member {
   border: {
     width: 1px;
-    color: $secondarycolor;
+    color: $secondarycolor-d-20;
     style: solid;
     radius: 0.3125rem;
   }
@@ -25,7 +25,7 @@
       display: flex;
       flex: 1;
       align-items: center;
-      background-color: $secondarycolor-l-20;
+      background-color: $secondarycolor-l-10;
       padding: 0.3125rem;
       cursor: pointer;
       @include textmix($white, $bodyfont, 0.875rem, 1, 500, none);

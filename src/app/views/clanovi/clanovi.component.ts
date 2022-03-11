@@ -10,7 +10,7 @@ export class ClanoviComponent implements OnInit {
   public clanovi: Array<Clan> = [
     {
       id: 1,
-      ime: 'Amel Hadzifejzovic',
+      ime: 'Amel Hadzifejzović',
       knjiga: {
         id: 1,
         autor: 'Haled Hoseini',
@@ -19,7 +19,7 @@ export class ClanoviComponent implements OnInit {
     },
     {
       id: 2,
-      ime: 'Vanja Milivojevic',
+      ime: 'Vanja Milivojević',
       knjiga: {
         id: 2,
         autor: 'Džodi Pikol',
@@ -28,7 +28,7 @@ export class ClanoviComponent implements OnInit {
     },
     {
       id: 3,
-      ime: 'Marija Stevanovic',
+      ime: 'Marija Stevanović',
       knjiga: {
         id: 3,
         autor: 'J.K.Rouling',
