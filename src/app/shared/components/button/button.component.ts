@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./button.component.scss'],
 })
 export class ButtonComponent {
-  @Input() style: 'primary' | 'gray' = 'primary';
+  @Input() style: 'primary' | 'secondary' | 'gray' = 'primary';
   @Input() size: 'small' | 'medium' | 'large' = 'medium';
   @Input() radius: 'no' | 'small' = 'small';
 }
