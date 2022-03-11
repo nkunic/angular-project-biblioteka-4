@@ -3,7 +3,7 @@ import { Clan } from '../model/clan.model';
 import { Knjiga } from '../model/knjiga.model';
 
 @Injectable()
-export class BibliotekaService {
+export class AppService {
   public knjige: Array<Knjiga> = [
     {
       id: 1,
