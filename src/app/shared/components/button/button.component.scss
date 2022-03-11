@@ -51,16 +51,16 @@
     none,
     1px,
     $white,
-    $primarycolor-d-20,
+    $secondarycolor,
     transparent,
     $white,
-    darken($primarycolor-d-20, 10%),
+    darken($secondarycolor, 10%),
     transparent,
     $white,
-    lighten($primarycolor-d-20, 10%),
+    lighten($secondarycolor, 10%),
     transparent,
     $white,
-    lighten($primarycolor-d-20, 10%),
+    lighten($secondarycolor, 10%),
     transparent
   );
 }
