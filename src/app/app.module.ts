@@ -9,6 +9,7 @@ import { KnjigeComponent } from './views/knjige/knjige.component';
 import { KnjigaComponent } from './views/knjige/knjiga/knjiga.component';
 import { ClanoviComponent } from './views/clanovi/clanovi.component';
 import { ClanComponent } from './views/clanovi/clan/clan.component';
+import { AppService } from './services/app.service';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, SharedModule],
@@ -20,6 +21,7 @@ import { ClanComponent } from './views/clanovi/clan/clan.component';
     ClanoviComponent,
     ClanComponent,
   ],
+  providers: [AppService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
