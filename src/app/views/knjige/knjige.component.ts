@@ -9,8 +9,8 @@ import { BibliotekaService } from '../../services/biblioteka.service';
 })
 export class KnjigeComponent implements OnInit {
   public knjige: Array<Knjiga>;
-  constructor(private appService: BibliotekaService) {}
+  constructor(private bibliotekaService: BibliotekaService) {}
   ngOnInit() {
-    this.knjige = this.appService.knjige;
+    this.knjige = this.bibliotekaService.knjige;
   }
 }

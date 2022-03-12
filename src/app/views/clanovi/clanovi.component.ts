@@ -9,8 +9,8 @@ import { BibliotekaService } from '../../services/biblioteka.service';
 })
 export class ClanoviComponent implements OnInit {
   public clanovi: Array<Clan>;
-  constructor(private appService: BibliotekaService) {}
+  constructor(private bibliotekaService: BibliotekaService) {}
   ngOnInit() {
-    this.clanovi = this.appService.clanovi;
+    this.clanovi = this.bibliotekaService.clanovi;
   }
 }
