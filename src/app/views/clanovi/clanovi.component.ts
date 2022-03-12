@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Clan } from '../../model/clan.model';
-import { AppService } from '../../services/app.service';
+import { BibliotekaService } from '../../services/biblioteka.service';
 
 @Component({
   selector: 'app-clanovi',
@@ -9,7 +9,7 @@ import { AppService } from '../../services/app.service';
 })
 export class ClanoviComponent implements OnInit {
   public clanovi: Array<Clan>;
-  constructor(private appService: AppService) {}
+  constructor(private appService: BibliotekaService) {}
   ngOnInit() {
     this.clanovi = this.appService.clanovi;
   }

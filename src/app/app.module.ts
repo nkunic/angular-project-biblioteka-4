@@ -9,7 +9,7 @@ import { KnjigeComponent } from './views/knjige/knjige.component';
 import { KnjigaComponent } from './views/knjige/knjiga/knjiga.component';
 import { ClanoviComponent } from './views/clanovi/clanovi.component';
 import { ClanComponent } from './views/clanovi/clan/clan.component';
-import { AppService } from './services/app.service';
+import { BibliotekaService } from './services/biblioteka.service';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, SharedModule],
@@ -21,7 +21,7 @@ import { AppService } from './services/app.service';
     ClanoviComponent,
     ClanComponent,
   ],
-  providers: [AppService],
+  providers: [BibliotekaService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
